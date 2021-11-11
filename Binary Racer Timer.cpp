@@ -28,6 +28,9 @@ int main()
 	int num,laps,i;
 	int sum=0;
 	int count=0;
+	cout<<"**************************************************"<<endl;
+	cout<<"Binary Racer Timer by Md Sagar Khan"<<endl;
+	cout<<"**************************************************"<<endl;
 	cout<<"Enter Number of Laps "<<endl;
 	cin>>laps;
 	for(i=1;i<=laps;i++)
@@ -39,6 +42,7 @@ int main()
 	    sum+=binaryToDecimal(num);
 	    cout<<"Current Sum = "<<sum<<endl;
 	    count++;
+	cout<<"**************************************************"<<endl;
 	}
 	cout<<"Total Sum = "<<sum<<endl;
   int seconds;
@@ -48,6 +52,7 @@ int main()
   int sec=(int)(seconds%60);
  cout<<"Total Time Taken Over "<<count<<" Laps is "<<hr<<" hours, "<<min<<" minutes and "<<sec<< " seconds"<<endl;
   cout<<"Hence hh:mm:ss = "<<hr<<":"<<min<<":"<<sec<<endl;
+	cout<<"***********************The End***************************"<<endl;
 	
 return 0;
 }
