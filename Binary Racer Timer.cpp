@@ -1,4 +1,4 @@
-// C++ program for binary racer timer
+// C++ program for binary racer timer_created by Md Sagar Khan
 #include <iostream>
 using namespace std;
 
